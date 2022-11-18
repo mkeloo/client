@@ -11,3 +11,118 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+button {
+  background-color: #499bff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #00aeff;
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
+}
+
+.App {
+  height: 100vh;
+  padding: 0 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.books {
+  display: flex;
+  gap: 20px;
+}
+
+.book {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 20px;
+  align-items: center;
+  /* width: 300px;
+  height: 300px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 20px; */
+}
+
+.delete {
+  background-color: #ff3a3a;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.delete:hover {
+  background-color: #ff0026;
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
+}
+
+.update {
+  background-color: #439324;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+  font-weight: bold;
+}
+
+.update:hover {
+  background-color: #007d04;
+  transform: scale(1.1);
+  transition: ease-in-out 0.2s;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  background-color: #499bff;
+}
+
+input {
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+textarea {
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
